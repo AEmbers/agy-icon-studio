@@ -1,0 +1,23 @@
+{
+  "name": "agy-icon-studio",
+  "version": "0.1.0",
+  "description": "Google Antigravity 插件图标工坊：全盘图标体检、AI 娘宇宙与多画风预设生成、跨平台 256x256 缩放及更新后一键还原保险箱",
+  "type": "module",
+  "license": "MIT",
+  "author": "AEmbers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AEmbers/agy-icon-studio.git"
+  },
+  "bin": {
+    "agy-icon-studio": "./bin/icon-studio.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/icon-studio.test.mjs",
+    "scan": "node bin/icon-studio.mjs scan",
+    "vault": "node bin/icon-studio.mjs vault list"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
